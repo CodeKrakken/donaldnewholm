@@ -1,13 +1,17 @@
 import React, { Component } from 'react'
-import Title from '../Title/Title'
-import Blurb from '../Blurb/Blurb'
+import './Home.css'
 
 export default class Home extends Component {
   render() {
     return (
-      <div>
-        <Title />
-        <Blurb />
+      <div className="content">
+        <div id="text">
+          Hello, I'm Donald. I have my fingers in many pies. 
+          Click the above buttons to sample my wares.<br /><br />
+          <p className="center">
+            Here endeth the pie metaphor.
+          </p>
+        </div>
       </div>
     )
   }

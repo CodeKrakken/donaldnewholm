@@ -4,3 +4,17 @@
   box-sizing: border-box;
   font-family: 'Ubuntu Mono', monospace;
 }
+
+.content {
+  position: absolute;
+  left: 30vw;
+  right: 30vw;
+  bottom: 30vh;
+  top: 30vh
+}
+
+#text {
+  text-align: justify;
+  font-size: 5vh;
+  width: 40vw
+}

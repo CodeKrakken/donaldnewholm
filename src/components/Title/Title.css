@@ -1,12 +1,4 @@
 #title {
   font-size: 15vh;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 44vh;
-  bottom: 44vh;
-  left: 24vw;
-  right: 24vw;
+  color: black
 }
