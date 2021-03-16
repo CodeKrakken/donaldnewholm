@@ -1,15 +1,15 @@
 import React, {Component} from 'react'
-import './Header.css'
+import './Title.css'
 let applause = new Audio('/applause.mp3')
 
-export default class Header extends Component {
+export default class Title extends Component {
 
   render() {
     return (
-      <div id="header">
-        <h1 onClick={this.applause}>
+      <div id="title">
+        <div onClick={this.applause}>
           Donald Newholm
-        </h1>
+        </div>
         
       </div>
     )

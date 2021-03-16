@@ -1,10 +1,12 @@
 import './App.css';
-import Header from './components/Header'
+import Title from './components/Title/Title'
+import Blurb from './components/Blurb/Blurb'
 
 function App() {
   return (
     <div>
-      <Header />
+      <Title />
+      <Blurb />
     </div>
   );
 }
