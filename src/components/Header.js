@@ -1,8 +1,9 @@
 import React, {Component} from 'react'
 import './Header.css'
-let applause = 'applause.mp3'
+let applause = new Audio('/applause.mp3')
 
 export default class Header extends Component {
+
   render() {
     return (
       <div id="header">
